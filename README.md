@@ -21,14 +21,6 @@ Generate precise answers using the Gemini 2.5 Flash API.
 
 Demonstrate the integration of React frontend with a Node.js backend for LLM-powered document Q&A.
 
-Scope of Work
-
-Input: PDFs or text documents
-
-Output: Synthesized answers to user queries
-
-Optional: Frontend interface for document upload and query submission
-
 Technology Stack
 
 Frontend:
