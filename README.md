@@ -1,41 +1,41 @@
-Knowledge-Base Search Engine
+🌟 Knowledge-Base Search Engine
 
-Name: Dikshit Bhattacharya
-Reg No.: 22BCE8882
+👤 Name: Dikshit Bhattacharya
+🆔 Reg No.: 22BCE8882
 
-Live Website: https://knowledge-search-engine-by-dikshit.vercel.app/
+🚀 Live Website: Click Here
 
-Video Demo: https://drive.google.com/file/d/1PgloIIuV34cZ8tpaPivxuwnAernA1ifw/view?usp=drive_link
+🎥 Video Demo: Watch Demo
 
-Introduction
+🔹 Introduction
 
-The Knowledge-Base Search Engine is a web application that allows users to upload documents (PDFs or text files) and ask questions related to their content. Using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG), the system generates concise, context-aware answers, enabling intelligent document understanding and quick access to information without manually reading large files.
+The Knowledge-Base Search Engine is a modern web application that lets users upload documents (PDFs or text files) and ask questions about their content. Leveraging Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG), it generates concise, context-aware answers, enabling users to quickly access relevant information without reading the entire document.
 
-Objectives
+🎯 Objectives
 
-Enable users to upload multiple documents.
+✅ Enable users to upload multiple documents
 
-Provide an interface to ask questions about document content.
+✅ Provide an interface to ask questions about document content
 
-Generate precise answers using the Gemini 2.5 Flash API.
+✅ Generate precise answers using Gemini 2.5 Flash API
 
-Demonstrate the integration of React frontend with a Node.js backend for LLM-powered document Q&A.
+✅ Showcase integration of React frontend with Node.js backend for LLM-powered Q&A
 
-Technology Stack
+🛠 Technology Stack
 
 Frontend:
 
 React.js
 
-CSS for styling
+CSS (Styling & responsive design)
 
 Backend:
 
 Node.js + Express.js
 
-Multer (file uploads)
+Multer (File uploads)
 
-pdf-parse (extract text from PDFs)
+pdf-parse (Extract text from PDFs)
 
 Google Generative AI (@google/generative-ai)
 
@@ -43,39 +43,36 @@ LLM Model:
 
 Gemini 2.5 Flash API
 
-Methodology
+⚙️ Methodology
 Frontend
 
-Built with React.js for a user-friendly interface.
+Built with React.js for a modern, user-friendly interface
 
-Features: PDF upload, question input box, and chat-style answer display.
+Key Features:
 
-Communicates with backend APIs to upload documents and receive AI-generated responses.
+PDF upload
+
+Question input box
+
+Chat-style answer display
+
+Communicates with backend APIs to upload documents and receive AI-generated responses
 
 Backend
 
-Developed with Node.js and Express.js.
+Developed using Node.js + Express.js
 
-Handles PDF uploads using Multer.
+Handles PDF uploads using Multer
 
-Extracts text content using pdf-parse.
+Extracts text from PDFs using pdf-parse
 
-Sends document content with user queries to Gemini 2.5 Flash API for answer synthesis.
+Sends document content along with user queries to Gemini 2.5 Flash API for answer synthesis
 
-API Endpoints
+🖥 API Endpoints
+GET /        -> Check backend server status
 
-GET /
+POST /upload -> Upload a PDF file
+               Returns success message + file details + extracted text length
 
-Status check for backend server
-
-POST /upload
-
-Upload a PDF file
-
-Returns success message with file details and extracted text length
-
-POST /ask
-
-Submit a question regarding the uploaded document
-
-Returns a synthesized answer from the LLM
+POST /ask    -> Submit a question about the uploaded document
+               Returns a synthesized answer from the LLM
