@@ -3,9 +3,9 @@
 👤 Name: Dikshit Bhattacharya
 🆔 Reg No.: 22BCE8882
 
-🚀 Live Website: Click Here
+🚀 Live Website: https://knowledge-search-engine-by-dikshit-bhattacharya-p0afw7g6v.vercel.app/
 
-🎥 Video Demo: Watch Demo
+🎥 Video Demo: https://drive.google.com/file/d/1PgloIIuV34cZ8tpaPivxuwnAernA1ifw/view?usp=drive_link
 
 🔹 Introduction
 
