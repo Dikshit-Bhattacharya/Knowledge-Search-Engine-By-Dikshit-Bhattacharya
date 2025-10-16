@@ -17,7 +17,7 @@ To build a smart information retrieval engine that answers user queries based on
 
 ⚙️ Scope of Work
 
-Input: Multiple text/PDF documents
+Input: Text/PDF documents
 
 Output: User query → synthesized answer using document content
 
